@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thoughtful furniture and lasting pieces for a home that feels like yours.">
+  <title>Furniro — Considered living</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Furniro home"><span class="brand-mark">F</span> furniro<span class="brand-period">.</span></a>
+    <a class="header-note" href="shop.html">Thoughtful pieces, made for living <span>↗</span></a>
+    <div class="header-actions">
+      <a class="cart-link" href="cart.html" aria-label="Shopping cart"><svg class="cart-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"></path></svg><span>Cart</span><span class="cart-count" aria-live="polite">0</span></a>
+      <div class="menu-wrap">
+        <button class="menu-toggle" type="button" aria-label="Open page navigation" aria-expanded="false" aria-controls="page-menu"><span></span><span></span></button>
+        <nav class="page-menu" id="page-menu" aria-label="Page navigation" hidden>
+          <p class="menu-caption">Explore Furniro</p>
+          <a href="index.html" data-page="index.html"><span>01</span> Home</a>
+          <a href="shop.html" data-page="shop.html"><span>02</span> Shop</a>
+          <a href="about.html" data-page="about.html"><span>03</span> Our story</a>
+          <a href="contact.html" data-page="contact.html"><span>04</span> Contact</a>
+          <a href="cart.html" data-page="cart.html"><span>05</span> Cart</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-home">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=2000&q=85" alt="Sunlit living room with natural wood furniture">
+      <div class="hero-copy">
+        <p class="eyebrow">A slower kind of home</p>
+        <h1>Make room<br>for <em>living.</em></h1>
+        <p>Honest materials. Quiet forms. Furniture made to stay with you through every version of home.</p>
+        <a class="button button-dark" href="shop.html">Shop the collection <span>↗</span></a>
+      </div>
+      <div class="hero-index"><span>01</span><span class="index-rule"></span><span>04</span></div>
+      <p class="hero-caption">The Sunday collection · 2026</p>
+    </section>
+
+    <section class="intro-section page-gutter">
+      <p class="eyebrow">Less, but better</p>
+      <h2>Good design should feel<br>like <em>coming home.</em></h2>
+      <p class="intro-copy">We bring together enduring materials and considered details to make the everyday a little more beautiful.</p>
+    </section>
+
+    <section class="collection-section page-gutter">
+      <div class="section-heading">
+        <div><p class="eyebrow">Find your feeling</p><h2>Rooms to settle into</h2></div>
+        <a class="text-link" href="shop.html">Explore all pieces <span>↗</span></a>
+      </div>
+      <div class="room-grid">
+        <a class="room-tile room-living" href="shop.html"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80" alt="Warm, relaxed living room"><span>01 / Living</span></a>
+        <a class="room-tile room-dining" href="shop.html"><img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=900&q=80" alt="Sculptural dining table and chairs"><span>02 / Dining</span></a>
+        <a class="room-tile room-bedroom" href="shop.html"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80" alt="Softly layered bedroom"><span>03 / Bedroom</span></a>
+      </div>
+    </section>
+
+    <section class="featured-section page-gutter">
+      <div class="section-heading">
+        <div><p class="eyebrow">Made for the everyday</p><h2>Pieces with presence</h2></div>
+        <a class="text-link" href="shop.html">Shop all <span>↗</span></a>
+      </div>
+      <div class="product-grid home-products">
+        <article class="product-card"><a class="product-image" href="shop.html"><img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=700&q=80" alt="Milo oak lounge chair"><span class="product-tag">Bestseller</span></a><div class="product-info"><div><h3>Milo lounge chair</h3><p>Solid oak · Natural linen</p></div><strong>$890</strong></div></article>
+        <article class="product-card"><a class="product-image" href="shop.html"><img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=700&q=80" alt="Arden modular sofa"><span class="product-tag product-tag-new">New</span></a><div class="product-info"><div><h3>Arden sofa</h3><p>Deep seat · Oat boucle</p></div><strong>$2,450</strong></div></article>
+        <article class="product-card"><a class="product-image" href="shop.html"><img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80" alt="Sora table lamp"><span class="product-tag">Small batch</span></a><div class="product-info"><div><h3>Sora table lamp</h3><p>Hand-finished ceramic</p></div><strong>$240</strong></div></article>
+      </div>
+    </section>
+
+    <section class="story-band">
+      <div class="story-image"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85" alt="Quiet, light-filled home interior"></div>
+      <div class="story-copy"><p class="eyebrow">Made to mean more</p><h2>Good things<br>take <em>time.</em></h2><p>We work with small workshops and natural materials to create fewer, better things. Pieces you’ll reach for every day, and keep for years.</p><a class="button button-outline" href="about.html">Get to know us <span>↗</span></a></div>
+    </section>
+
+    <section class="newsletter-section page-gutter">
+      <div><p class="eyebrow">A little note from us</p><h2>Make yourself at home.</h2><p>New pieces, thoughtful spaces, and a good idea now and then.</p></div>
+      <form class="newsletter-form"><label class="visually-hidden" for="newsletter-email">Email address</label><input id="newsletter-email" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe">Join us <span>↗</span></button><p class="form-message" aria-live="polite"></p></form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main"><div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark">F</span> furniro<span class="brand-period">.</span></a><p>Furniture for the feeling of home.</p></div><div class="footer-links"><p class="eyebrow">Navigate</p><a href="shop.html">Shop</a><a href="about.html">Our story</a><a href="contact.html">Contact</a></div><div class="footer-links"><p class="eyebrow">Come say hello</p><a href="mailto:hello@furniro.example">hello@furniro.example</a><p>Brooklyn, New York</p></div><div class="footer-links"><p class="eyebrow">Follow along</p><a href="https://www.instagram.com/">Instagram ↗</a><a href="https://www.pinterest.com/">Pinterest ↗</a></div></div>
+    <div class="footer-bottom"><span>© 2026 Furniro Studio</span><span>Made for living, made to last.</span></div>
+  </footer>
+</body>
+</html>
